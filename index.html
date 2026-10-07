@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Pooja Gangasagar — AWS Cloud & DevOps Engineer at Maxora IT Technology. Specializing in AWS, Terraform, Kubernetes, Docker, and CI/CD pipelines.">
+    <meta name="keywords"
+        content="Cloud Engineer, DevOps, AWS, Terraform, Kubernetes, Docker, CI/CD, Pooja Gangasagar, EKS, GitHub Actions">
+    <meta name="author" content="Pooja Gangasagar">
+    <title>Pooja Gangasagar | AWS Cloud & DevOps Engineer — Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Devicon for tech logos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- ═══════════════════ NAVIGATION ═══════════════════ -->
+    <nav class="navbar" id="navbar">
+        <a href="#hero" class="nav-logo">
+            <div class="logo-icon">
+                <span class="logo-letter">P</span>
+            </div>
+            <span class="logo-text">Pooja<span class="logo-dot">.</span></span>
+        </a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#hero" class="nav-link active"><i class="bi bi-house-door"></i><span>Home</span></a></li>
+            <li><a href="#about" class="nav-link"><i class="bi bi-person"></i><span>About</span></a></li>
+            <li><a href="#skills" class="nav-link"><i class="bi bi-cpu"></i><span>Skills</span></a></li>
+            <li><a href="#experience" class="nav-link"><i class="bi bi-briefcase"></i><span>Experience</span></a></li>
+            <li><a href="#projects" class="nav-link"><i class="bi bi-rocket-takeoff"></i><span>Projects</span></a></li>
+            <li><a href="#certifications" class="nav-link"><i class="bi bi-award"></i><span>Certifications</span></a>
+            </li>
+            <li><a href="#contact" class="nav-link"><i class="bi bi-envelope"></i><span>Contact</span></a></li>
+        </ul>
+        <div class="nav-right">
+            <div class="resume-dropdown">
+                <button class="nav-btn-resume" aria-haspopup="true" aria-expanded="false">
+                    <i class="bi bi-file-earmark-person-fill"></i> Resume <i
+                        class="bi bi-chevron-down dropdown-icon"></i>
+                </button>
+                <div class="dropdown-menu">
+                    <a href="Pooja_Gangasagar_Cloud_Engineer_Resume_NEW.pdf" target="_blank" rel="noopener noreferrer"
+                        class="dropdown-item">
+                        <i class="bi bi-eye-fill"></i> View Resume
+                    </a>
+                    <a href="Pooja_Gangasagar_Cloud_Engineer_Resume_NEW.pdf" download class="dropdown-item">
+                        <i class="bi bi-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            <a href="http://www.linkedin.com/in/pooja-gangasagar-a85735209" target="_blank" rel="noopener noreferrer"
+                class="nav-social" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/poojadevops54" target="_blank" rel="noopener noreferrer" class="nav-social"
+                aria-label="GitHub">
+                <i class="bi bi-github"></i>
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════ HERO ═══════════════════ -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-particles" id="hero-particles"></div>
+        <div class="hero-content">
+            <div class="hero-image-wrapper reveal-up" style="--delay: 0.1s">
+                <div class="hero-image-glow"></div>
+                <div class="hero-image-border"></div>
+                <img src="Confident Corporate Portrait in a Modern Office.png"
+                    alt="Pooja Gangasagar — Professional Portrait" class="hero-image" loading="eager"
+                    fetchpriority="high">
+                <div class="hero-image-badge">
+                    <i class="bi bi-cloud-check-fill"></i>
+                    <span>AWS Engineer</span>
+                </div>
+                <div class="hero-email-badge">
+                    <i class="bi bi-envelope-fill"></i>
+                    <a href="mailto:gangasagarpooja36@gmail.com">gangasagarpooja36@gmail.com</a>
+                </div>
+            </div>
+            <div class="hero-text">
+                <p class="hero-greeting reveal-up">Hello, I'm</p>
+                <h1 class="hero-name reveal-up" style="--delay: 0.15s">
+                    Pooja <span class="gradient-text">Gangasagar</span>
+                </h1>
+                <div class="hero-role-wrapper reveal-up" style="--delay: 0.3s">
+                    <span class="hero-role-label">
+                        <i class="bi bi-cloud-fill" style="color: var(--accent-2);"></i>
+                        AWS Cloud & DevOps Engineer
+                    </span>
+                    <div class="hero-typewriter">
+                        <span class="typewriter-prefix">~/</span><span id="typewriter"></span><span
+                            class="cursor">|</span>
+                    </div>
+                </div>
+                <p class="hero-summary reveal-up" style="--delay: 0.45s">
+                    Building resilient cloud infrastructure &amp; automating deployments with
+                    <strong>AWS</strong>, <strong>Terraform</strong>, <strong>Kubernetes</strong>, and
+                    <strong>CI/CD</strong> pipelines
+                    at <strong>Maxora IT Technology</strong>.
+                </p>
+                <div class="hero-cta reveal-up" style="--delay: 0.6s">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="bi bi-rocket-takeoff-fill"></i>
+                        <span>View Projects</span>
+                    </a>
+                    <a href="#experience" class="btn btn-outline">
+                        <i class="bi bi-briefcase-fill"></i>
+                        <span>My Experience</span>
+                    </a>
+                </div>
+                <div class="hero-socials reveal-up" style="--delay: 0.75s">
+                    <a href="http://www.linkedin.com/in/pooja-gangasagar-a85735209" target="_blank"
+                        rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/poojadevops54" target="_blank" rel="noopener noreferrer"
+                        class="social-link" aria-label="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </a>
+    </section>
+
+    <!-- ═══════════════════ ABOUT ═══════════════════ -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-label"><i class="bi bi-person-vcard"></i> Who I Am</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-stats reveal-up" style="--delay: 0.1s">
+                    <div class="stat-card glass-card">
+                        <div class="stat-icon"><i class="bi bi-check-circle-fill"></i></div>
+                        <span class="stat-number" data-count="10">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Projects Delivered</span>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <div class="stat-icon"><i class="bi bi-layers-fill"></i></div>
+                        <span class="stat-number" data-count="20">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <div class="stat-icon"><i class="bi bi-award-fill"></i></div>
+                        <span class="stat-number" data-count="3">0</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <div class="stat-icon"><i class="bi bi-calendar-check-fill"></i></div>
+                        <span class="stat-number" data-count="3">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+                <div class="about-text reveal-up" style="--delay: 0.2s">
+                    <div class="glass-card about-description">
+                        <p>
+                            I'm an <strong>AWS Cloud & DevOps Engineer</strong> at <strong>Maxora IT
+                                Technology</strong>,
+                            passionate about designing scalable, secure, and highly available cloud architectures.
+                            With hands-on expertise across <strong>AWS</strong> (EC2, VPC, EKS, Lambda, S3, RDS, IAM),
+                            <strong>Terraform</strong>, <strong>Kubernetes</strong>, <strong>Docker</strong>,
+                            and modern CI/CD tools, I bridge the gap between development and operations.
+                        </p>
+                        <p>
+                            My approach combines <strong>Infrastructure as Code</strong> principles with
+                            automation-first thinking.
+                            I've reduced monthly AWS spend by <strong>~30%</strong> through right-sizing and Savings
+                            Plans,
+                            and cut environment setup time by <strong>70%</strong> via Terraform automation.
+                        </p>
+                        <p>
+                            Currently focused on cloud-native architectures, container orchestration on
+                            <strong>EKS</strong>,
+                            building end-to-end CI/CD pipelines with <strong>GitHub Actions</strong> & <strong>AWS
+                                CodePipeline</strong>,
+                            and implementing security best practices with <strong>IAM, KMS, GuardDuty</strong>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ SKILLS ═══════════════════ -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-label"><i class="bi bi-cpu-fill"></i> What I Work With</span>
+                <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- AWS Services -->
+                <div class="skill-category glass-card reveal-up" style="--delay: 0.05s">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon" style="--accent: #FF9900">
+                            <i class="devicon-amazonwebservices-plain-wordmark"></i>
+                        </div>
+                        <h3>AWS Services</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag" style="--accent: #FF9900"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                                alt="AWS" class="skill-logo">EC2</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i class="bi bi-hdd-network"></i>VPC</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i class="bi bi-bucket-fill"></i>S3</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i class="bi bi-hdd-stack-fill"></i>EBS</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i class="bi bi-database-fill"></i>RDS</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i
+                                class="bi bi-shield-lock-fill"></i>IAM</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i
+                                class="bi bi-lightning-fill"></i>Lambda</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i class="bi bi-boxes"></i>EKS</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i class="bi bi-box-seam-fill"></i>ECS</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i class="bi bi-box-fill"></i>ECR</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i class="bi bi-diagram-3-fill"></i>ELB</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i class="bi bi-signpost-2-fill"></i>Route
+                            53</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i class="bi bi-globe2"></i>CloudFront</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i
+                                class="bi bi-graph-up"></i>CloudWatch</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i
+                                class="bi bi-journal-text"></i>CloudTrail</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i
+                                class="bi bi-file-code-fill"></i>CloudFormation</span>
+                        <span class="skill-tag" style="--accent: #FF9900"><i
+                                class="bi bi-gear-wide-connected"></i>Systems Manager</span>
+                    </div>
+                </div>
+
+                <!-- DevOps Tools -->
+                <div class="skill-category glass-card reveal-up" style="--delay: 0.1s">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon" style="--accent: #2496ED">
+                            <i class="bi bi-infinity"></i>
+                        </div>
+                        <h3>DevOps Tools</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag" style="--accent: #2496ED"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg"
+                                alt="Docker" class="skill-logo">Docker</span>
+                        <span class="skill-tag" style="--accent: #326CE5"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/kubernetes/kubernetes-plain.svg"
+                                alt="K8s" class="skill-logo">Kubernetes</span>
+                        <span class="skill-tag" style="--accent: #7B42BC"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/terraform/terraform-original.svg"
+                                alt="Terraform" class="skill-logo">Terraform</span>
+                        <span class="skill-tag" style="--accent: #2088FF"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/githubactions/githubactions-original.svg"
+                                alt="GH Actions" class="skill-logo">GitHub Actions</span>
+                        <span class="skill-tag" style="--accent: #F05032"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg"
+                                alt="Git" class="skill-logo">Git / GitHub</span>
+                        <span class="skill-tag" style="--accent: #E6522C"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/prometheus/prometheus-original.svg"
+                                alt="Prometheus" class="skill-logo">Prometheus</span>
+                        <span class="skill-tag" style="--accent: #F46800"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/grafana/grafana-original.svg"
+                                alt="Grafana" class="skill-logo">Grafana</span>
+                        <span class="skill-tag" style="--accent: #1904DA"><i class="bi bi-shield-check"></i>Trivy</span>
+                        <span class="skill-tag" style="--accent: #F3702A"><i class="bi bi-search"></i>SonarCloud</span>
+                    </div>
+                </div>
+
+                <!-- Linux & Scripting -->
+                <div class="skill-category glass-card reveal-up" style="--delay: 0.15s">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon" style="--accent: #FCC624">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linux/linux-original.svg"
+                                alt="Linux" style="width:24px;height:24px;">
+                        </div>
+                        <h3>Linux & Scripting</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag" style="--accent: #FCC624"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linux/linux-original.svg"
+                                alt="Linux" class="skill-logo">Amazon Linux</span>
+                        <span class="skill-tag" style="--accent: #E95420"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/ubuntu/ubuntu-original.svg"
+                                alt="Ubuntu" class="skill-logo">Ubuntu</span>
+                        <span class="skill-tag" style="--accent: #4EAA25"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/bash/bash-original.svg"
+                                alt="Bash" class="skill-logo">Bash</span>
+                        <span class="skill-tag" style="--accent: #3776AB"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg"
+                                alt="Python" class="skill-logo">Python (Boto3)</span>
+                    </div>
+                </div>
+
+                <!-- Networking -->
+                <div class="skill-category glass-card reveal-up" style="--delay: 0.2s">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon" style="--accent: #00BCB4">
+                            <i class="bi bi-diagram-3-fill"></i>
+                        </div>
+                        <h3>Networking</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag" style="--accent: #00BCB4"><i class="bi bi-hdd-network-fill"></i>VPC
+                            Design</span>
+                        <span class="skill-tag" style="--accent: #00BCB4"><i class="bi bi-grid-3x3"></i>Subnets</span>
+                        <span class="skill-tag" style="--accent: #00BCB4"><i
+                                class="bi bi-signpost-split-fill"></i>Routing</span>
+                        <span class="skill-tag" style="--accent: #00BCB4"><i class="bi bi-router-fill"></i>NAT /
+                            Internet GW</span>
+                        <span class="skill-tag" style="--accent: #00BCB4"><i class="bi bi-lock-fill"></i>VPN</span>
+                        <span class="skill-tag" style="--accent: #00BCB4"><i class="bi bi-globe"></i>DNS</span>
+                        <span class="skill-tag" style="--accent: #00BCB4"><i class="bi bi-ethernet"></i>TCP/IP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ EXPERIENCE ═══════════════════ -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-label"><i class="bi bi-briefcase-fill"></i> Career Journey</span>
+                <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <!-- Current Role -->
+                <div class="timeline-item reveal-up" style="--delay: 0.1s">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot pulse"></div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-badge current">Current Role</div>
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">AWS Cloud Engineer</h3>
+                                <span class="timeline-company">
+                                    <i class="bi bi-building"></i>
+                                    Maxora IT Technology
+                                </span>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="bi bi-calendar3"></i>
+                                May 2024 – Present
+                            </span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-cloud-fill"></i></div>
+                                <span>Design and manage AWS environments using <strong>EC2, VPC, ALB, Auto Scaling, RDS,
+                                        S3, and IAM</strong>, achieving <strong>99.9% uptime</strong>.</span>
+                            </li>
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-code-slash"></i></div>
+                                <span>Automate infrastructure with <strong>Terraform</strong> and
+                                    <strong>CloudFormation</strong>, cutting environment setup time by
+                                    <strong>70%</strong>.</span>
+                            </li>
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-arrow-repeat"></i></div>
+                                <span>Build CI/CD pipelines with <strong>GitHub Actions</strong> and <strong>AWS
+                                        CodePipeline</strong> for automated testing, image builds, and
+                                    deployments.</span>
+                            </li>
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-boxes"></i></div>
+                                <span>Containerize applications with <strong>Docker</strong> and run them on
+                                    <strong>Kubernetes (EKS)</strong> using Deployments, Ingress, HPA, and rolling
+                                    updates.</span>
+                            </li>
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-graph-up"></i></div>
+                                <span>Monitor systems with <strong>Prometheus, Grafana, and CloudWatch</strong>; set up
+                                    dashboards and alerts; use <strong>CloudTrail</strong> for auditing.</span>
+                            </li>
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-shield-lock-fill"></i></div>
+                                <span>Secure workloads with <strong>IAM, KMS, Secrets Manager, and GuardDuty</strong>;
+                                    remediate findings and enforce compliance.</span>
+                            </li>
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-piggy-bank-fill"></i></div>
+                                <span>Reduced monthly AWS spend by <strong>~30%</strong> through right-sizing, Savings
+                                    Plans, and S3 lifecycle policies.</span>
+                            </li>
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-arrow-left-right"></i></div>
+                                <span>Support <strong>on-premises to AWS migrations</strong> and handle incident
+                                    response and RCA.</span>
+                            </li>
+                        </ul>
+                        <div class="timeline-tech-stack">
+                            <span class="timeline-tech"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                                    alt="AWS" class="skill-logo">AWS</span>
+                            <span class="timeline-tech"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/terraform/terraform-original.svg"
+                                    alt="Terraform" class="skill-logo">Terraform</span>
+                            <span class="timeline-tech"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/kubernetes/kubernetes-plain.svg"
+                                    alt="K8s" class="skill-logo">K8s</span>
+                            <span class="timeline-tech"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg"
+                                    alt="Docker" class="skill-logo">Docker</span>
+                            <span class="timeline-tech"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/prometheus/prometheus-original.svg"
+                                    alt="Prometheus" class="skill-logo">Prometheus</span>
+                            <span class="timeline-tech"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/grafana/grafana-original.svg"
+                                    alt="Grafana" class="skill-logo">Grafana</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Intern Role -->
+                <div class="timeline-item reveal-up" style="--delay: 0.25s">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-badge intern">Internship</div>
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">AWS Cloud Engineer Intern</h3>
+                                <span class="timeline-company">
+                                    <i class="bi bi-building"></i>
+                                    Maxora IT Technology
+                                </span>
+                            </div>
+                            <span class="timeline-date">
+                                <i class="bi bi-calendar3"></i>
+                                Oct 2023 – Apr 2024
+                            </span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-server"></i></div>
+                                <span>Deployed and supported <strong>EC2, S3, RDS, VPC, Route 53, and ELB</strong>
+                                    environments for client applications.</span>
+                            </li>
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-file-earmark-code"></i></div>
+                                <span>Created <strong>CloudFormation</strong> templates and
+                                    <strong>CodePipeline</strong> deployments, reducing manual releases.</span>
+                            </li>
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-shield-check"></i></div>
+                                <span>Managed <strong>IAM</strong> users, roles, and policies with least privilege;
+                                    enforced <strong>MFA</strong>.</span>
+                            </li>
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-activity"></i></div>
+                                <span>Monitored workloads with <strong>CloudWatch</strong> and resolved incidents within
+                                    SLA; maintained backups and snapshots.</span>
+                            </li>
+                            <li>
+                                <div class="detail-icon"><i class="bi bi-terminal-fill"></i></div>
+                                <span>Wrote <strong>Bash</strong> and <strong>Python (Boto3)</strong> scripts and
+                                    <strong>Lambda</strong> functions to automate patching, snapshots, and EC2
+                                    scheduling.</span>
+                            </li>
+                        </ul>
+                        <div class="timeline-tech-stack">
+                            <span class="timeline-tech"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                                    alt="AWS" class="skill-logo">AWS</span>
+                            <span class="timeline-tech"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg"
+                                    alt="Python" class="skill-logo">Python</span>
+                            <span class="timeline-tech"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/bash/bash-original.svg"
+                                    alt="Bash" class="skill-logo">Bash</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ PROJECTS ═══════════════════ -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-label"><i class="bi bi-rocket-takeoff-fill"></i> What I've Built</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- LinguistAI -->
+                <div class="project-card glass-card reveal-up" style="--delay: 0.1s">
+                    <div class="project-image-wrapper">
+                        <img src="linguistai_project.jpg" alt="LinguistAI DevOps Pipeline Architecture"
+                            class="project-image" loading="lazy">
+                        <div class="project-image-overlay"></div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-card-header">
+                            <div class="project-icon">
+                                <i class="bi bi-cpu-fill"></i>
+                            </div>
+                            <h3 class="project-title">LinguistAI — DevOps Pipeline</h3>
+                        </div>
+                        <p class="project-description">
+                            End-to-end DevOps pipeline for an AI-powered language-learning application.
+                            Includes containerized microservices, Kubernetes orchestration, CI/CD with GitHub Actions,
+                            Terraform-managed AWS infrastructure, and a full monitoring stack.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Terraform</span>
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">GitHub Actions</span>
+                            <span class="tech-tag">Prometheus</span>
+                            <span class="tech-tag">Grafana</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/poojadevops54/linguistai-devOps.git" target="_blank"
+                                rel="noopener noreferrer" class="project-btn project-btn-github">
+                                <i class="bi bi-github"></i>
+                                <span>Source Code</span>
+                            </a>
+                            <a href="https://linguist-ai-architecture-4le8.vercel.app/" target="_blank"
+                                rel="noopener noreferrer" class="project-btn project-btn-live">
+                                <i class="bi bi-diagram-3-fill"></i>
+                                <span>Architecture</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DevOps Workstation -->
+                <div class="project-card glass-card reveal-up" style="--delay: 0.2s">
+                    <div class="project-image-wrapper">
+                        <img src="devops_workstation.jpg" alt="DevOps Workstation Setup" class="project-image"
+                            loading="lazy">
+                        <div class="project-image-overlay"></div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-card-header">
+                            <div class="project-icon">
+                                <i class="bi bi-terminal-fill"></i>
+                            </div>
+                            <h3 class="project-title">DevOps Workstation</h3>
+                        </div>
+                        <p class="project-description">
+                            A comprehensive DevOps workstation setup featuring automated tool installation,
+                            environment configuration, and a curated collection of scripts for common cloud
+                            operations and infrastructure management tasks.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Bash</span>
+                            <span class="tech-tag">Linux</span>
+                            <span class="tech-tag">Automation</span>
+                            <span class="tech-tag">Shell Scripts</span>
+                            <span class="tech-tag">DevOps Tools</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/poojadevops54/Devops-workstation" target="_blank"
+                                rel="noopener noreferrer" class="project-btn project-btn-github">
+                                <i class="bi bi-github"></i>
+                                <span>Source Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ CERTIFICATIONS ═══════════════════ -->
+    <section class="section certifications" id="certifications">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-label"><i class="bi bi-patch-check-fill"></i> Credentials</span>
+                <h2 class="section-title">Certifications <span class="gradient-text">& Badges</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card glass-card reveal-up" style="--delay: 0.1s">
+                    <div class="cert-badge" style="--accent: #2088FF">
+                        <i class="bi bi-github" style="font-size: 2rem;"></i>
+                    </div>
+                    <h3 class="cert-title">GitHub Actions</h3>
+                    <p class="cert-issuer">GitHub</p>
+                    <a href="https://drive.google.com/file/d/1_B0c9LbXVaxidAR4QeR9b1z3EoKkZSbF/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer" class="cert-verify">
+                        <i class="bi bi-patch-check-fill"></i>
+                        Verify Certificate
+                    </a>
+                </div>
+
+                <div class="cert-card glass-card reveal-up" style="--delay: 0.2s">
+                    <div class="cert-badge" style="--accent: #1BA0D7">
+                        <i class="bi bi-router-fill" style="font-size: 2rem;"></i>
+                    </div>
+                    <h3 class="cert-title">CCNA</h3>
+                    <p class="cert-issuer">Cisco</p>
+                    <a href="https://drive.google.com/file/d/1BWKXm762Hu90wbL78DHg_29eRLt7IA9f/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer" class="cert-verify">
+                        <i class="bi bi-patch-check-fill"></i>
+                        Verify Certificate
+                    </a>
+                </div>
+
+                <div class="cert-card glass-card reveal-up" style="--delay: 0.3s">
+                    <div class="cert-badge" style="--accent: #E8552D">
+                        <i class="bi bi-cloud-check-fill" style="font-size: 2rem;"></i>
+                    </div>
+                    <h3 class="cert-title">Aviatrix Certified Engineer</h3>
+                    <p class="cert-issuer">Aviatrix</p>
+                    <a href="https://drive.google.com/file/d/1ukPeLFqgt_qUWKHaoKu5iaxezwAma8_Y/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer" class="cert-verify">
+                        <i class="bi bi-patch-check-fill"></i>
+                        Verify Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ CONTACT ═══════════════════ -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-label"><i class="bi bi-chat-dots-fill"></i> Let's Connect</span>
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content reveal-up" style="--delay: 0.15s">
+                <div class="contact-info glass-card">
+                    <p class="contact-intro">
+                        I'm always open to new opportunities, collaborations, and conversations about
+                        cloud architecture and DevOps. Feel free to reach out!
+                    </p>
+                    <div class="contact-links">
+                        <a href="http://www.linkedin.com/in/pooja-gangasagar-a85735209" target="_blank"
+                            rel="noopener noreferrer" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-linkedin"></i>
+                            </div>
+                            <div>
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">Pooja Gangasagar</span>
+                            </div>
+                            <i class="bi bi-arrow-right contact-arrow"></i>
+                        </a>
+                        <a href="https://github.com/poojadevops54" target="_blank" rel="noopener noreferrer"
+                            class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-github"></i>
+                            </div>
+                            <div>
+                                <span class="contact-label">GitHub</span>
+                                <span class="contact-value">poojadevops54</span>
+                            </div>
+                            <i class="bi bi-arrow-right contact-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ FOOTER ═══════════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#hero" class="footer-logo">
+                    <div class="logo-icon logo-icon-sm">
+                        <span class="logo-letter">P</span>
+                    </div>
+                    <span class="logo-text">Pooja<span class="logo-dot">.</span></span>
+                </a>
+                <p class="footer-copy">&copy; 2026 Pooja Gangasagar. Crafted with precision.</p>
+                <div class="footer-socials">
+                    <a href="http://www.linkedin.com/in/pooja-gangasagar-a85735209" target="_blank"
+                        rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/poojadevops54" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
